@@ -1930,7 +1930,22 @@ class Request
             'rdf' => ['application/rdf+xml'],
             'atom' => ['application/atom+xml'],
             'rss' => ['application/rss+xml'],
-            'form' => ['application/x-www-form-urlencoded'],
+            'form' => ['application/x-www-form-urlencoded', 'multipart/form-data'],
+            'csv' => ['text/csv'],
+            'pdf' => ['application/pdf'],
+            'graphql' => ['application/graphql'],
+            'doc' => ['application/msword'],
+            'docx' => ['application/vnd.openxmlformats-officedocument.wordprocessingml.document'],
+            'xls' => ['application/vnd.ms-excel'],
+            'xlsx' => ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'],
+            'ppt' => ['application/vnd.ms-powerpoint'],
+            'pptx' => ['application/vnd.openxmlformats-officedocument.presentationml.presentation'],
+            'odt' => ['application/vnd.oasis.opendocument.text'],
+            'mpeg' => ['audio/mpeg'],
+            'ogg' => ['audio/ogg'],
+            'png' => ['image/png'],
+            'jpeg' => ['image/jpeg'],
+            'gif' => ['image/gif']
         ];
     }
 
